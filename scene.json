@@ -1,0 +1,37 @@
+{
+  "display": {
+    "title": "Nft wall test",
+    "favicon": "favicon_asset",
+    "navmapThumbnail": "scene-thumbnail.png"
+  },
+  "owner": "",
+  "contact": {
+    "name": "Murpheus",
+    "email": ""
+  },
+  "main": "bin/game.js",
+  "tags": [],
+  "scene": {
+    "parcels": [
+      "142,107",
+      "142,108"
+    ],
+    "base": "142,108"
+  },
+  "source": {
+    "version": 1,
+    "origin": "builder",
+    "projectId": "7c216f1b-75fd-4ba2-b9bc-0bb823c213d0",
+    "point": {
+      "x": 0,
+      "y": 0
+    },
+    "rotation": "east",
+    "layout": {
+      "rows": 1,
+      "cols": 1
+    }
+  },
+  "requiredPermissions": [],
+  "featureToggles": {}
+}

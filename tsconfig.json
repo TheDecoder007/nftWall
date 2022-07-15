@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "outFile": "./bin/game.js",
+    "allowJs": true,
+    "paths": {
+      "@dcl/crypto-scene-utils": [
+        "node_modules\\@dcl\\crypto-scene-utils\\dist\\index.d.ts"
+      ],
+      "@dcl/ecs-scene-utils": [
+        "node_modules\\@dcl\\ecs-scene-utils\\dist\\index.d.ts"
+      ],
+      "@dcl/ui-scene-utils": [
+        "node_modules\\@dcl\\ui-scene-utils\\dist\\index.d.ts"
+      ],
+      "eth-connect": [
+        "node_modules\\eth-connect\\eth-connect.d.ts"
+      ],
+      "dcl-access-area": [
+        "node_modules\\dcl-access-area\\dist\\index.d.ts"
+      ],
+      "dcl-builder-hud": [
+        "node_modules\\dcl-builder-hud\\dist\\index.d.ts"
+      ]
+    },
+    "baseUrl": "."
+  },
+  "include": [
+    "src/**/*.ts",
+    "./node_modules/decentraland-builder-scripts/types.d.ts"
+  ],
+  "extends": "./node_modules/decentraland-ecs/types/tsconfig.json",
+  "compileOnSave": false
+}
