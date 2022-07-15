@@ -25,7 +25,9 @@
     "dcl-access-area": "^1.1.7",
     "decentraland-builder-scripts": "latest",
     "decentraland-ecs": "latest",
-    "eth-connect": "^6.0.3"
+    "eth-connect": "^6.0.3",
+    "dcl-builder-hud": "^1.1.6"
+
 
   },
   "bundledDependencies": [
@@ -33,7 +35,9 @@
     "@dcl/ecs-scene-utils",
     "@dcl/ui-scene-utils",
     "eth-connect",
-    "dcl-access-area" 
+    "dcl-access-area",
+    "dcl-builder-hud"
+
 
   ]
 }
